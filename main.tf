@@ -1,5 +1,6 @@
 resource "google_storage_bucket" "my-bucket" {
   name          = "no-public-access-bucket"
+  prodject      = "tt-dev-001"
   location      = "US"
   force_destroy = true
 
