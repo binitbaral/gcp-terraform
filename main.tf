@@ -1,6 +1,6 @@
 resource "google_storage_bucket" "my-bucket" {
   name          = "no-public-access-bucket"
-  project       = "tt-dev-001"
+  project       = "hopeful-list-446012-q4"
   location      = "US"
   force_destroy = true
 
