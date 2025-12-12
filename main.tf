@@ -1,5 +1,5 @@
 resource "google_storage_bucket" "my-bucket" {
-  name          = "no-public-access-bucket"
+  name          = "binitbaral-new-bucket"
   project       = "hopeful-list-446012-q4"
   location      = "US"
   force_destroy = true
