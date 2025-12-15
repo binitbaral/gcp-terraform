@@ -1,5 +1,5 @@
 resource "google_storage_bucket" "my-bucket" {
-  name          = "binitbaral-new-bucket"
+  name          = "binitbaral-new-buckett"
   project       = "hopeful-list-446012-q4"
   location      = "US"
   force_destroy = true
