@@ -36,7 +36,7 @@ jobs:
 
       # 4️⃣ Initialize Terraform
       - name: Terraform Init
-        run: terraform init
+        run: terraform init -upgrade
 
       # 5️⃣ Check Terraform formatting
       - name: Terraform Format
